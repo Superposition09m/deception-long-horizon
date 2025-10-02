@@ -1,14 +1,6 @@
 """
 Chat-style static HTML viewer for experiment logs.
 
-Usage:
-  python visualization/chat_dialog_viewer.py \
-    --run \
-      /Users/superposition/Desktop/Deception_local/DeceptioN/results/8_models_3_datapoints_per_model_2_detector_runs/startup_consulting_20250831_041926 \
-    --detector \
-      /Users/superposition/Desktop/Deception_local/DeceptioN/results/8_models_3_datapoints_per_model_2_detector_runs/startup_consulting_20250831_041926/detector_20250831_204745.json \
-    [--out log_view.html]
-
 This script generates a single static HTML file (no server needed) that presents
 each round as a simple chat with three messages:
 - Task/Event input (base prompt + event name/content)

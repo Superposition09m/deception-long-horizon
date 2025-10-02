@@ -99,7 +99,7 @@ On startup consulting domain, we evaluate 11 frontier models across 20 independe
 
 ```bash
 # Clone the repository
-git clone https://github.com/Superposition09m/deception-long-horizon.git
+git clone https://anonymous.4open.science/r/LongHorizonDeception.git
 cd deception-long-horizon
 
 # Create and activate virtual environment
