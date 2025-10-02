@@ -163,16 +163,3 @@ llm_api_config:
   manager: "gpt5_mini"              # Supervisor agent
   detector: "gpt5_azure_detector"   # Deception auditor(fixed to GPT-5-high-reasoning-effort)
 ```
-
-## Citation
-
-If you use this framework in your research, please cite:
-
-```bibtex
-@misc{xu2025simulating,
-  title={Simulating and Understanding Deceptive Behaviors in Long-Horizon Interactions},
-  author={Xu, Yang and Zhang, Xuanming and Yeh, Min-Hsuan and Dhamala, Jwala and Dia, Ousmane and Gupta, Rahul and Li, Yixuan},
-  year={2025},
-  howpublished={\url{https://github.com/Superposition09m/deception-long-horizon}}
-}
-```
