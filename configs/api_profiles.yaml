@@ -6,7 +6,7 @@ api_profiles:
   gpt4o1120azurenew:
     provider: "azure"
     azure_api_key: "${gpt_4o_key}"
-    azure_endpoint: "https://deceptionn1.openai.azure.com"
+    azure_endpoint: "${AZURE_ENDPOINT}"
     azure_deployment: "gpt-4o"
     azure_api_version: "2025-04-01-preview"
     input_tokens: 128000
@@ -15,7 +15,7 @@ api_profiles:
   gpt5_azure:
     provider: "azure"
     azure_api_key: "${gpt_5_key}"
-    azure_endpoint: "https://deceptionn1.openai.azure.com"
+    azure_endpoint: "${AZURE_ENDPOINT}"
     azure_deployment: "gpt-5"
     azure_api_version: "2025-04-01-preview"
     input_tokens: 272000
@@ -24,7 +24,7 @@ api_profiles:
   gpt5_azure_detector:
     provider: "azure"
     azure_api_key: "${gpt_5_key}"
-    azure_endpoint: "https://deceptionn1.openai.azure.com"
+    azure_endpoint: "${AZURE_ENDPOINT}"
     azure_deployment: "gpt-5"
     azure_api_version: "2025-04-01-preview"
     input_tokens: 272000
@@ -34,7 +34,7 @@ api_profiles:
   gpt5_mini:
     provider: "azure"
     azure_api_key: "${gpt_5_mini_key}"
-    azure_endpoint: "https://deceptionn1.openai.azure.com"
+    azure_endpoint: "${AZURE_ENDPOINT}"
     azure_deployment: "gpt-5-mini"
     azure_api_version: "2025-04-01-preview"
     input_tokens: 272000
@@ -43,7 +43,7 @@ api_profiles:
   o4_mini:
     provider: "azure"
     azure_api_key: "${gpt_o4_mini_key}"
-    azure_endpoint: "https://deceptionn1.openai.azure.com"
+    azure_endpoint: "${AZURE_ENDPOINT}"
     azure_deployment: "o4-mini"
     azure_api_version: "2025-04-01-preview"
     input_tokens: 200000
@@ -52,7 +52,7 @@ api_profiles:
   o3:
     provider: "azure"
     azure_api_key: "${gpt_o3_key}"
-    azure_endpoint: "https://deceptionn1.openai.azure.com"
+    azure_endpoint: "${AZURE_ENDPOINT}"
     azure_deployment: "o3"
     azure_api_version: "2025-04-01-preview"
     input_tokens: 200000
